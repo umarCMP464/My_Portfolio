@@ -13,7 +13,7 @@ const Hero = (props) => (
       <SectionText>
         I love video games and graphics design, programming, teaching and drinking tea. I love helping people anyway I can to the best of my ability. I have taught classes in the past concerning computer programming in the presence of a professor.
       </SectionText>
-      <Button onClick={() => window.location = 'https://static.videezy.com/system/resources/previews/000/042/543/original/DNA-Background.mp4'}> Details</Button>
+      <Button onClick={() => window.location = 'https://resumegenius.com/resume-samples/project-manager-resume-example'}> Resume </Button>
     </LeftSection>
   </Section>
 );

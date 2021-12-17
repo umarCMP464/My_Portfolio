@@ -1,0 +1,15 @@
+I do not own or wrote the codes all bymyself. 
+Below contains references from whcih I have obtained a large portion of code or
+files that helped me build my resume and learn more about react on how to add and stylize components.
+
+Link:
+Youtube: https://www.youtube.com/watch?v=OPaLnMw2i_0
+
+Starter code of the original author: 
+https://github.com/adrianhajdin/portfolio_website
+
+Contact info of the author:
+https://www.instagram.com/javascriptmastery/
+
+
+

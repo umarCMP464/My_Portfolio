@@ -4,14 +4,31 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
+const projectsExample = [
+  {
+      title: 'Education',
+      description: 'Lehman College Computer Science student, BCC graduate'
+  },
+  {
+      title: 'Job skills',
+      description: 'food service, customer service, teaching'
+  },
+  {
+    title: 'Interests',
+    description: 'Scientific solutions to modern problems, problems of programming, graphics design, technology, and the natural world such as animals'
+  },
+  ]
+
 const Projects = () => (
   <Section nopadding id = "projects">
     <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionTitle main>Achievements</SectionTitle>
     <GridContainer>
-      {[0, 1, 2].map((project) => (
+    {projectsExample.map((project) => (
         <div>
-          {project}
+          {project.title}
+          <br />
+          {project.description}
         </div>
       ))}
     </GridContainer>
